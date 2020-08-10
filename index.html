@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>김태현</title>
+    
+    <!--//style-->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div id="wrap">
+        <header id="header" class="clearfix">
+            <h1><a href="#"><img src="images/logo.jpg" alt="puzzle"></a></h1>
+            <nav class="nav">
+                <ul calss="clearfix">
+                    <li><a href="#">Info</a>
+                            <ul class="submenu">
+                                <li><a href="#">이름</a></li>
+                                <li><a href="#">능력치</a></li>
+                                <li><a href="#">취미</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">PUZZLE?</a>
+                            <ul class="submenu">
+                                <li><a href="#">컨셉의 시작</a></li>
+                                <li><a href="#">의미</a></li>
+                                <li><a href="#">결과</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">웹 제작물</a>
+                            <ul class="submenu">
+                                <li><a href="file:///Users/3-1T/Desktop/30111%20%E1%84%80%E1%85%B5%E1%86%B7%E1%84%90%E1%85%A2%E1%84%92%E1%85%A7%E1%86%AB/%E1%84%80%E1%85%B5%E1%86%B7%E1%84%90%E1%85%A2%E1%84%92%E1%85%A7%E1%86%AB%20%E1%84%8B%E1%85%B0%E1%86%B8%E1%84%89%E1%85%A1%E1%84%8B%E1%85%B5%E1%84%90%E1%85%B3%202/index.html">광고 페이지</a></li>
+                                <li><a href="#">이벤트 페이지</a></li>
+                                <li><a href="#">앨범 커버 리디자인</a></li>
+                                <li><a href="#">UX/UI 디자인</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">영상 제작물</a>
+                            <ul class="submenu">
+                                <li><a href="#">게임</a></li>
+                                <li><a href="#">V-log</a></li>
+                                <li><a href="#">공모전</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">SNS</a>
+                            <ul class="submenu">
+                                <li><a href="https://www.youtube.com/channel/UCDLHwB_6B0vfz6DSBKfwdVQ?view_as=subscriber">YOUTUBE</a></li>
+                                <li><a href="#">INSTAGRAM</a></li>
+                                <li><a href="#">TWITCH</a></li>
+                                <li><a href="#">TWITTER</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </nav>
+        </header>
+        <!--//header-->
+        <section id="banner">
+            <div class="slideList">
+                <div class="slideImg">
+                    <img src="images/banner01.jpg" alt="디퓨저">
+                </div>
+                <div class="slideImg">
+                    <img src="images/banner02.jpg" alt="잡지">
+                </div>
+                <div class="slideImg">
+                    <img src="images/banner03.jpg" alt="스모어">
+                </div>
+            </div>
+        </section>
+        
+        <!--//banner--> 
+        <section id="contents">
+        <img src="images/contents.jpg" alt="명언">
+        
+       
+    
+    </section>
+    
+        
+        
+        
+        
+        
+        <!--//contents-->
+        <section id="mockup"></section>
+        <div class="tab-menu">
+        
+        
+        
+        
+        
+        
+        
+        <div class="best clearfix">
+            <figure>
+                <img src="images/01.jpg" alt="로고 명함">
+                <figcaption> "Puzzle"비즈니스 명함 </figcaption>
+            </figure>
+            <figure>
+                <img src="images/02.jpg" alt="잡지">
+                <figcaption> 2020 TRANED MAGAZINE </figcaption>
+            </figure>
+            <figure>
+                <img src="images/03.jpg" alt="커버 책">
+                <figcaption> POTOFOLIO COVRE BOOK </figcaption>
+            </figure>
+        </div>
+        <div class="best clearfix">
+            <figure>
+                <img src="images/04.jpg" alt="이벤트 페이지">
+                <figcaption> 쿠키런 1주년 기념 페이지 </figcaption>
+            </figure>
+            <figure>
+                <img src="images/05.jpg" alt="스모어ui">
+                <figcaption> 스모어 기본 UI 화면 </figcaption>
+            </figure>
+            <figure>
+                <img src="images/06.jpg" alt="썸네일">
+                <figcaption> 냉장고를 부탁해 "고든램지" 특집 썸네일 리디자인 </figcaption>
+            </figure>
+        </div>
+        </div>
+
+   
+<!--//mockup-->
+    
+ <footer id="footer" class="clearfix">
+    <h2><img src="images/gray%20logo.jpg" alt="로고"></h2>
+     <div class="foot">
+      <ul>
+         <li><a href="#">이용약관</a></li>
+         <li><a href="#">개인정보처리방침</a></li>
+         <li><a href="#">법적고지</a></li>
+         <li><a href="#">사업자정보확인</a></li>
+      </ul>
+      <address>
+         디자이너 : 김태현<br>
+         주소 : 서울 강서구 공항대로 59가길 1 4층,5층
+         </address>
+      </div>
+    </footer>
+    <!--script-->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <script>
+        //네비게이션
+        $(".nav > ul > li").mouseover(function(){
+            $(this).find(".submenu").stop().slideDown(200);
+        });
+        $(".nav > ul > li").mouseout(function(){
+            $(this).find(".submenu").stop().slideUp(200);
+        });
+            
+    //이미지 슬라이드(좌우)        
+    var currentIndex = 0;
+        
+    setInterval(function(){
+        if (currentIndex < 2){
+             currentIndex++;
+        } else {
+        currentIndex = 0;
+        }
+        var slidePosition = currentIndex * (-1000)+"px";
+        $(".slideList").animate({ left:slidePosition },400);
+    },3000);
+            
+        </script>
+    
+    
+       </div> 
+    
+    
+    
+    
+    
+    
+    </body>
+</html>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
